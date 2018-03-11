@@ -2,3 +2,4 @@
 - hosts: localhost
   roles:
     - go
+    - ansible-role-postman
