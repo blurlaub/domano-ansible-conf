@@ -1,5 +1,10 @@
 ---
 - hosts: localhost
   roles:
-    - go
+    # Deps
+    - andrewrothstein.alpine-glibc-shim
+    - andrewrothstein.unarchive-deps
+    # Real stuff
+    - ansible-go
     - ansible-role-postman
+    - ansible-role-visual-studio-code    
